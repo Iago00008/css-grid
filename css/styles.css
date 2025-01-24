@@ -55,3 +55,17 @@
 .item6 { grid-column: 1 / -1; background-color: #28a745; color: white; display: flex; align-items: center; justify-content: center; }
 .item-4 { background-color: #6f42c1; color: white; display: flex; align-items: center; justify-content: center; }
 
+/* --- Exercício 5: Layout Responsivo --- */
+.grid-container-5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.item-5 {
+    background-color: #e83e8c;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
