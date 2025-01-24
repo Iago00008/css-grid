@@ -1,0 +1,16 @@
+/* --- Exercício 1: Criar um Grid Básico --- */
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+.item {
+    background-color: #64afff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+
