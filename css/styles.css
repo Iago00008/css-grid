@@ -69,3 +69,26 @@
     line-height: 100px;
 }
 
+/* --- Exercício 6: Dashboard Simples --- */
+.grid-container-6 {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar main-content widget"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    gap: 10px;
+}
+.header { grid-area: header; background-color: #343a40; color: white; }
+.sidebar { grid-area: sidebar; background-color: #ffc107; }
+.main-content { grid-area: main-content; background-color: #20c997; }
+.widget { grid-area: widget; background-color: #007bff; }
+.footer { grid-area: footer; background-color: #6f42c1; color: white; }
+.grid-container-6 > div {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
