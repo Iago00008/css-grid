@@ -30,3 +30,17 @@
 .main { grid-area: main; background-color: #20c997; }
 .footer { grid-area: footer; background-color: #6f42c1; color: white; }
 
+/* --- Exercício 3: Ajustar Tamanhos de Colunas e Linhas --- */
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    grid-template-rows: 50px 150px;
+    gap: 5px;
+}
+.item-3 {
+    background-color: #17a2b8;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
